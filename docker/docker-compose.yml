@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  mailhog:
+    container_name: poke-api-go-mailing
+    image: mailhog/mailhog:v1.0.1
+    ports:
+      - "1025:1025"
+      - "8025:8025"
